@@ -7,6 +7,11 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager me;
 
+    //Data to hold
+    public Vector3 lastSavePoint;
+    public GameObject lifeBar = null;
+    public int maxLives = 5;
+    public int lifeCount = 3;
 
     void Awake()
     {

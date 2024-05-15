@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7286429392967400558}
   - component: {fileID: 1199585166001553138}
-  - component: {fileID: 4616644558370939812}
   - component: {fileID: 3830695868308904929}
+  - component: {fileID: 2132130684243064613}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -86,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4616644558370939812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8034404649626132853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e86be9a59c3914ace82ac04488fa3e87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathSoundEffect: {fileID: 0}
 --- !u!61 &3830695868308904929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.89391136, y: 0.45440245}
   m_EdgeRadius: 0
+--- !u!114 &2132130684243064613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034404649626132853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ea28d1d8bdc42aba1da0c582511671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}

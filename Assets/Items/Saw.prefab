@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7288608527055365463}
   - component: {fileID: 8886037615180588939}
-  - component: {fileID: 3377240709746096153}
   - component: {fileID: 5629723357813741728}
   - component: {fileID: 2468874129313771537}
+  - component: {fileID: -6457391254840909404}
   m_Layer: 0
   m_Name: Saw
   m_TagString: Untagged
@@ -87,19 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3377240709746096153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7873570972374863422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e86be9a59c3914ace82ac04488fa3e87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathSoundEffect: {fileID: 0}
 --- !u!61 &5629723357813741728
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -164,3 +151,16 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   speed: 5
+--- !u!114 &-6457391254840909404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873570972374863422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ea28d1d8bdc42aba1da0c582511671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect: {fileID: 0}
